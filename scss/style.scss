@@ -9,7 +9,20 @@ section {
   align-items: center;
 
   .titleContainer {
-    font: 4rem/1 'arial';
-    color: #eee;
+    font-size: 0;
+    padding-bottom: 0.4rem;
+    position: relative;
+
+    h1 {
+      font: 4rem/1 'arial';
+      color: #eee;
+      transform: translateY(6rem);
+    }
+  }
+}
+
+@keyframes up {
+  100% {
+    transform: translateY(0);
   }
 }
