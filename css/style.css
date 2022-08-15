@@ -37,4 +37,9 @@ button {
   overflow: hidden;
 }
 
+section {
+  background: #222;
+  min-height: 100vh;
+}
+
 /*# sourceMappingURL=style.css.map */
