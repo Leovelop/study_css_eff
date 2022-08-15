@@ -44,5 +44,9 @@ section {
   justify-content: center;
   align-items: center;
 }
+section .titleContainer {
+  font: 4rem/1 "arial";
+  color: #eee;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -7,4 +7,9 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .titleContainer {
+    font: 4rem/1 'arial';
+    color: #eee;
+  }
 }
