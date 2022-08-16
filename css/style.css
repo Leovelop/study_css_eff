@@ -39,9 +39,6 @@ button {
 
 section {
   min-height: 33vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 section .titleContainer {
   font-size: 0;
