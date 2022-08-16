@@ -39,11 +39,13 @@ button {
 }
 
 section {
-  min-height: 33vh;
+  min-height: 33.3333333333vh;
   position: relative;
 }
 section h1 {
   position: absolute;
+  top: 5vh;
+  left: 5vw;
 }
 section.overflowTitle {
   background: #333;
