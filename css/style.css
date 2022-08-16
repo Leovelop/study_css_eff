@@ -45,13 +45,13 @@ section.overflowTitle {
   justify-content: center;
   align-items: center;
 }
-section .titleContainer {
+section.overflowTitle div {
   font-size: 0;
   padding-bottom: 0.4rem;
   position: relative;
   overflow: hidden;
 }
-section .titleContainer h1 {
+section.overflowTitle div h1 {
   font: 4rem/1 "arial";
   color: #eee;
   transform: translateY(6rem);
