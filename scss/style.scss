@@ -3,7 +3,12 @@
 
 section {
   min-height: 33vh;
-  
+
+  &.overflowTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .titleContainer {
     font-size: 0;

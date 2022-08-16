@@ -40,6 +40,11 @@ button {
 section {
   min-height: 33vh;
 }
+section.overflowTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 section .titleContainer {
   font-size: 0;
   padding-bottom: 0.4rem;
