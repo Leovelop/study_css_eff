@@ -40,6 +40,10 @@ button {
 
 section {
   min-height: 33vh;
+  position: relative;
+}
+section h1 {
+  position: absolute;
 }
 section.overflowTitle {
   background: #333;
