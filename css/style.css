@@ -53,6 +53,9 @@ section.overflowTitle div {
   overflow: hidden;
 }
 section.overflowTitle div h1 {
+  color: #eee;
+}
+section.overflowTitle div p {
   font: 4rem/1 "arial";
   color: #eee;
   transform: translateY(6rem);

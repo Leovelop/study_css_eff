@@ -14,8 +14,10 @@ section {
       padding-bottom: 0.4rem;
       position: relative;
       overflow: hidden;
+
+      h1 { color: #eee; }
   
-      h1 {
+      p {
         font: 4rem/1 'arial';
         color: #eee;
         transform: translateY(6rem);
