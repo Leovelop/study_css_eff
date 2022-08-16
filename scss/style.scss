@@ -5,6 +5,12 @@ section {
   min-height: (100vh / 3);
   position: relative;
 
+  &:hover {
+    p {
+      animation: up 500ms linear forwards;
+    }
+  }
+
   h1 {
     position: absolute;
     top: 5vh;
@@ -17,18 +23,19 @@ section {
     justify-content: center;
     align-items: center;
 
+    h1 {
+      color: #999;
+    }
+
     div {
       padding-bottom: 0.4rem;
       position: relative;
       overflow: hidden;
 
-      h1 { color: #eee; }
-  
       p {
         font: 4rem/1 'arial';
         color: #eee;
         transform: translateY(6rem);
-        animation: up 500ms linear forwards;
       }
     }
   }

@@ -42,6 +42,9 @@ section {
   min-height: 33.3333333333vh;
   position: relative;
 }
+section:hover p {
+  animation: up 500ms linear forwards;
+}
 section h1 {
   position: absolute;
   top: 5vh;
@@ -53,19 +56,18 @@ section.overflowTitle {
   justify-content: center;
   align-items: center;
 }
+section.overflowTitle h1 {
+  color: #999;
+}
 section.overflowTitle div {
   padding-bottom: 0.4rem;
   position: relative;
   overflow: hidden;
 }
-section.overflowTitle div h1 {
-  color: #eee;
-}
 section.overflowTitle div p {
   font: 4rem/1 "arial";
   color: #eee;
   transform: translateY(6rem);
-  animation: up 500ms linear forwards;
 }
 
 /* animation 모음 */
