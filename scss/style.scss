@@ -5,6 +5,13 @@ section {
   min-height: calc(100vh / 3);
   position: relative;
 
+  //행과 열 가운데 정렬
+  &.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &:hover {
     p {
       animation: up 500ms linear forwards;
@@ -20,9 +27,6 @@ section {
   //1. 폰트가 가려졌다가 위로 나타나는 애니메이션
   &.overflowTitle {
     background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     h1 {
       color: #999;
@@ -42,7 +46,7 @@ section {
   }
 
   &.btnAni_1 {
-    
+
   }
 }
 
