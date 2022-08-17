@@ -69,6 +69,16 @@ section.overflowTitle div p {
   color: #eee;
   transform: translateY(6rem);
 }
+section.btnAni_1 {
+  background: #eee;
+}
+section.btnAni_1 a {
+  position: relative;
+  display: inline-flex;
+  background: #51a9ff;
+  color: #fff;
+}
+
 /* animation 모음 */
 @keyframes up {
   100% {

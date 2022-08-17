@@ -44,7 +44,15 @@ section {
   }
 
   &.btnAni_1 {
+    background: #eee;
 
+    a {
+      position: relative;
+      display: inline-flex;
+      background: lighten($color: dodgerblue, $amount: 10%);
+      color: #fff;
+      
+    }
   }
 }
 
