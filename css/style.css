@@ -62,7 +62,6 @@ section.overflowTitle h1 {
   color: #999;
 }
 section.overflowTitle div {
-  padding-bottom: 0.4rem;
   position: relative;
   overflow: hidden;
 }
