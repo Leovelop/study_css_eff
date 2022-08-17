@@ -77,6 +77,7 @@ section.btnAni_1 a {
   display: inline-flex;
   background: #51a9ff;
   color: #fff;
+  font: 20px/1.15 "arial";
 }
 
 /* animation 모음 */
