@@ -62,7 +62,6 @@ section.overflowTitle h1 {
   color: #999;
 }
 section.overflowTitle div {
-  position: relative;
   overflow: hidden;
 }
 section.overflowTitle div p {
