@@ -69,7 +69,6 @@ section.overflowTitle div p {
   color: #eee;
   transform: translateY(6rem);
 }
-
 /* animation 모음 */
 @keyframes up {
   100% {
