@@ -80,6 +80,7 @@ section.btnAni_1 div a {
   font: 20px/1.15 "arial";
   box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.5);
   padding-left: 20px;
+  overflow: hidden;
 }
 section.btnAni_1 div a span {
   display: flex;
