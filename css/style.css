@@ -89,6 +89,10 @@ section.btnAni_1 div a span {
   background: pink;
   padding: 1rem;
 }
+section.btnAni_1 div a:hover span {
+  animation: moveArrow 0.75s;
+}
+
 /* animation 모음 */
 @keyframes up {
   100% {
