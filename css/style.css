@@ -89,8 +89,9 @@ section.btnAni_1 div a span {
   margin-left: 20px;
   background: pink;
   padding: 1rem;
+  overflow: hidden;
 }
-section.btnAni_1 div a:hover span {
+section.btnAni_1 div a:hover span i {
   animation: moveArrow 0.75s;
 }
 

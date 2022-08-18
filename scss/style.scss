@@ -56,6 +56,7 @@ section {
 
       a {
         //position: relative;
+        //z-index: 1;
         display: inline-flex;
         align-items: center;
         background: lighten($color: dodgerblue, $amount: 10%);
@@ -70,10 +71,11 @@ section {
           margin-left: 20px;
           background: pink;
           padding: 1rem;
+          overflow: hidden;
         }
 
         &:hover {
-          span {
+          span i {
             animation: moveArrow 0.75s;
           }
         }
