@@ -103,6 +103,9 @@ section.btnAni_1 div a span {
   49% {
     transform: translateX(50px);
   }
+  50% {
+    transform: translateX(-50px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
