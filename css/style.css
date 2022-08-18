@@ -96,5 +96,6 @@ section.btnAni_1 div a span {
     transform: translateY(0);
   }
 }
+@keyframes moveArrow {}
 
 /*# sourceMappingURL=style.css.map */
