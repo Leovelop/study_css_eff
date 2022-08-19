@@ -22,6 +22,10 @@ section {
     background: #333;
   }
 
+  &:nth-of-type(even) {
+    background: #eee;
+  }
+
   &:hover {
     p {
       animation: up 500ms linear forwards;
