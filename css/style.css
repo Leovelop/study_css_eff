@@ -55,9 +55,6 @@ section h1 {
   top: 5vh;
   left: 5vw;
 }
-section.overflowTitle {
-  background: #333;
-}
 section.overflowTitle h1 {
   color: #999;
 }
@@ -68,9 +65,6 @@ section.overflowTitle div p {
   font: 4rem/1 "arial";
   color: #eee;
   transform: translateY(6rem);
-}
-section.btnAni_1 {
-  background: #eee;
 }
 section.btnAni_1 div a {
   display: inline-flex;
