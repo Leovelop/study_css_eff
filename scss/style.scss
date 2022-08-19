@@ -20,6 +20,10 @@ section {
 
   &:nth-of-type(odd) {
     background: #333;
+
+    h1 {
+      color: #999;
+    }
   }
 
   &:nth-of-type(even) {
