@@ -47,6 +47,9 @@ section.center {
   justify-content: center;
   align-items: center;
 }
+section:nth-of-type(odd) {
+  background: #333;
+}
 section:hover p {
   animation: up 500ms linear forwards;
 }

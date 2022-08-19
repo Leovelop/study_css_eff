@@ -18,6 +18,10 @@ section {
     align-items: center;
   }
 
+  &:nth-of-type(odd) {
+    background: #333;
+  }
+
   &:hover {
     p {
       animation: up 500ms linear forwards;
