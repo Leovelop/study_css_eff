@@ -30,12 +30,6 @@ section {
     background: #eee;
   }
 
-  &:hover {
-    p {
-      animation: up 500ms linear forwards;
-    }
-  }
-
   h1 {
     position: absolute;
     top: 5vh;
@@ -44,7 +38,11 @@ section {
 
   //1. 폰트가 가려졌다가 위로 나타나는 애니메이션
   &.overflowTitle {
-    //background: #333;
+    &:hover {
+      p {
+        animation: up 500ms linear forwards;
+      }
+    }
 
     h1 {
       color: #999;

@@ -56,13 +56,13 @@ section:nth-of-type(odd) h1 {
 section:nth-of-type(even) {
   background: #eee;
 }
-section:hover p {
-  animation: up 500ms linear forwards;
-}
 section h1 {
   position: absolute;
   top: 5vh;
   left: 5vw;
+}
+section.overflowTitle:hover p {
+  animation: up 500ms linear forwards;
 }
 section.overflowTitle h1 {
   color: #999;
