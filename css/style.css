@@ -97,6 +97,16 @@ section.btnAni_1 div a span {
 section.btnAni_1 div a:hover span i {
   animation: moveArrow 0.75s;
 }
+section.triangleCorner {
+  height: 66.6666666667%;
+}
+section.triangleCorner div {
+  width: 380px;
+  height: 300px;
+  background: #666;
+  margin: 0 10px;
+}
+
 /* animation 모음 */
 @keyframes up {
   100% {
