@@ -97,9 +97,13 @@ section {
     div {
       position: relative;
       width: 380px;
-      height: 300px;
+      height: 400px;
       background: #666;
       margin: 0 10px;
+
+      &::after {
+        content: '';
+      }
     }
   }
 }
