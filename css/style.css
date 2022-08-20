@@ -97,7 +97,6 @@ section.btnAni_1 div a span {
 section.btnAni_1 div a:hover span i {
   animation: moveArrow 0.75s;
 }
-
 /* animation 모음 */
 @keyframes up {
   100% {
