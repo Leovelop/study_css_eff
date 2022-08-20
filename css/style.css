@@ -110,6 +110,9 @@ section.triangleCorner div {
 section.triangleCorner div::after {
   content: "";
 }
+section.triangleCorner div::before {
+  content: "";
+}
 
 /* animation 모음 */
 @keyframes up {
