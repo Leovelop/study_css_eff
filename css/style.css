@@ -111,6 +111,8 @@ section.triangleCorner div {
 section.triangleCorner div::after {
   content: "";
   position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 section.triangleCorner div::before {
   content: "";
