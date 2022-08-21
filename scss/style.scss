@@ -102,6 +102,12 @@ section {
       background: #666;
       margin: 0 10px;
 
+      &:hover {
+        &::after {
+          border-width: 0px 0px 100px 100px;
+        }
+      }
+
       &::after {
         content: '';
         position: absolute;
