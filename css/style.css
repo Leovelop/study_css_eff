@@ -121,6 +121,7 @@ section.triangleCorner div::after {
   border-style: solid;
   border-width: 0px 0px 50px 50px;
   border-color: transparent transparent dodgerblue transparent;
+  transition: border-width 0.3s;
 }
 section.triangleCorner div::before {
   content: "";
