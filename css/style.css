@@ -116,6 +116,7 @@ section.triangleCorner div::after {
   width: 0px;
   height: 0px;
   border-style: solid;
+  border-width: 0px 0px 50px 50px;
 }
 section.triangleCorner div::before {
   content: "";
