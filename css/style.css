@@ -98,7 +98,8 @@ section.btnAni_1 div a:hover span i {
   animation: moveArrow 0.75s;
 }
 section.triangleCorner {
-  height: 66.6666666667vh;
+  padding: 15vh 0 10vh;
+  height: auto;
 }
 section.triangleCorner div {
   position: relative;

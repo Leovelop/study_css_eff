@@ -92,7 +92,8 @@ section {
 
   //3. 모서리 부분 커지는 애니메이션
   &.triangleCorner {
-    height: calc((100vh / 3) * 2);
+    padding: 15vh 0 10vh;
+    height: auto;
 
     div {
       position: relative;
