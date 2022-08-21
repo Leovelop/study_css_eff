@@ -110,6 +110,7 @@ section.triangleCorner div {
 }
 section.triangleCorner div::after {
   content: "";
+  position: absolute;
 }
 section.triangleCorner div::before {
   content: "";

@@ -104,6 +104,8 @@ section {
 
       &::after {
         content: '';
+        position: absolute;
+        
       }
 
       &::before {
