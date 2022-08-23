@@ -111,6 +111,9 @@ section.triangleCorner div {
 section.triangleCorner div:hover::after {
   border-width: 0px 0px 100px 100px;
 }
+section.triangleCorner div:hover::before {
+  opacity: 1;
+}
 section.triangleCorner div::after {
   content: "";
   position: absolute;
