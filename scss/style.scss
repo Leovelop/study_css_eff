@@ -122,9 +122,10 @@ section {
       }
 
       &::before {
-        content: '';
+        content: 'View';
         font: 12px/1 'arial';
         color: #fff;
+        
       }
     }
   }

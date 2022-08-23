@@ -124,7 +124,7 @@ section.triangleCorner div::after {
   transition: border-width 0.3s;
 }
 section.triangleCorner div::before {
-  content: "";
+  content: "View";
   font: 12px/1 "arial";
   color: #fff;
 }
