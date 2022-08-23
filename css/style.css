@@ -125,6 +125,7 @@ section.triangleCorner div::after {
 }
 section.triangleCorner div::before {
   content: "";
+  font: 12px/1 "arial";
 }
 
 /* animation 모음 */
