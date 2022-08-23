@@ -127,6 +127,7 @@ section.triangleCorner div::before {
   content: "View";
   font: 12px/1 "arial";
   color: #fff;
+  position: absolute;
 }
 
 /* animation 모음 */
