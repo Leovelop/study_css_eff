@@ -106,6 +106,10 @@ section {
         &::after {
           border-width: 0px 0px 100px 100px;
         }
+
+        &::before {
+
+        }
       }
 
       &::after {
@@ -126,8 +130,8 @@ section {
         font: 12px/1 'arial';
         color: #fff;
         position: absolute;
-        bottom: 50px;
-        right: 50px;
+        bottom: 25px;
+        right: 25px;
         //white-space: pre-wrap;
         //text-align: right;
       }
