@@ -131,8 +131,8 @@ section.triangleCorner div::before {
   font: 12px/1 "arial";
   color: #fff;
   position: absolute;
-  bottom: 25px;
-  right: 25px;
+  bottom: 15px;
+  right: 15px;
   opacity: 0;
   transition: 0.5s;
   z-index: 1;
