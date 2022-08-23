@@ -131,6 +131,7 @@ section.triangleCorner div::before {
   bottom: 25px;
   right: 25px;
   opacity: 0;
+  transition: 0.5s;
 }
 
 /* animation 모음 */
