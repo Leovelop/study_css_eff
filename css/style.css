@@ -134,7 +134,7 @@ section.triangleCorner div::before {
   bottom: 15px;
   right: 15px;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.3s;
   z-index: 1;
 }
 
