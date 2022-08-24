@@ -145,6 +145,14 @@ section {
   }
 
   //4. svg 회전 애니메이션
+  &.rotateCircle {
+    button {
+      max-width: 200px;
+      background: none;
+      border: 0px;
+      
+    }
+  }
 }
 
 /* animation 모음 */
