@@ -56,6 +56,9 @@ section:nth-of-type(odd) h1 {
 section:nth-of-type(even) {
   background: #eee;
 }
+section:nth-of-type(even) h1 {
+  color: #333;
+}
 section h1 {
   position: absolute;
   top: 5vh;

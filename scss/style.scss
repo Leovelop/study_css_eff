@@ -28,6 +28,10 @@ section {
 
   &:nth-of-type(even) {
     background: #eee;
+    
+    h1 {
+      color: #333;
+    }
   }
 
   h1 {
