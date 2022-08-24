@@ -107,6 +107,7 @@ section.triangleCorner div {
   height: 400px;
   background: #666;
   margin: 0 10px;
+  cursor: pointer;
 }
 section.triangleCorner div:hover::after {
   border-width: 0px 0px 100px 100px;
