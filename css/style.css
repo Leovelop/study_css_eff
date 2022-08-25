@@ -151,7 +151,11 @@ section.rotateCircle button svg {
   height: auto;
 }
 section.rotateCircle button svg .outer-circle {
+  transform-origin: 60px 60px;
   transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+section.rotateCircle button:hover svg .outer-circle {
+  transform: rotate(360deg);
 }
 
 /* animation 모음 */
