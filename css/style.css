@@ -152,7 +152,7 @@ section.rotateCircle button svg {
 }
 section.rotateCircle button svg .outer-circle {
   transform-origin: 60px 60px;
-  transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 2s cubic-bezier(0.62, 0.005, 0, 1.005);
 }
 section.rotateCircle button:hover svg .outer-circle {
   transform: rotate(360deg);
