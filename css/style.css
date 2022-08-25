@@ -146,6 +146,10 @@ section.rotateCircle button {
   background: none;
   border: 0px;
 }
+section.rotateCircle button svg {
+  width: 100%;
+  height: auto;
+}
 
 /* animation 모음 */
 @keyframes up {

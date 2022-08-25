@@ -150,6 +150,11 @@ section {
       max-width: 200px;
       background: none;
       border: 0px;
+
+      svg {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
