@@ -150,6 +150,9 @@ section.rotateCircle button svg {
   width: 100%;
   height: auto;
 }
+section.rotateCircle button svg .outer-circle {
+  transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 /* animation 모음 */
 @keyframes up {
