@@ -181,8 +181,12 @@ section {
       height: auto;
       
       tspan > tspan {
-        stroke-dasharray: 1500;
-        stroke-dashoffset: -1500;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: -1000;
+
+        @for $i from 1 through 10 {
+
+        }
       }
     }
   }
