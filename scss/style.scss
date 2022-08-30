@@ -182,6 +182,7 @@ section {
       
       tspan > tspan {
         stroke-dasharray: 1500;
+        stroke-dashoffset: -1500;
       }
     }
   }
