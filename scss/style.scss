@@ -171,9 +171,17 @@ section {
 
   //5. svg 글자 차례대로 써지는 애니메이션
   &.svgAni {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    $num: 10;
+
+    &:hover {
+      svg tspan > tspan {
+        @for $i from 1 through $num {
+          &:nth-of-type(#{$i}) {
+            animation: draw 0.5s #{$i * 0.2}s forwards;
+          }
+        }
+      }
+    }
 
     svg {
       max-width: 50rem;
@@ -181,14 +189,10 @@ section {
       height: auto;
       
       tspan > tspan {
-        stroke-dasharray: 1000;
-        stroke-dashoffset: -1000;
+        stroke-dasharray: 1500;
+        stroke-dashoffset: -1500;
 
-        @for $i from 1 through 10 {
-          &:nth-of-type(#{$i}) {
-            animation: draw 0.5s #{$i * 0.3}s forwards;
-          }
-        }
+        
       }
     }
   }
