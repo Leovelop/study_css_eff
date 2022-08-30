@@ -185,7 +185,9 @@ section {
         stroke-dashoffset: -1000;
 
         @for $i from 1 through 10 {
-
+          &:nth-of-type(#{$i}) {
+            animation: draw 0.5s #{$i * 0.3}s forwards;
+          }
         }
       }
     }
