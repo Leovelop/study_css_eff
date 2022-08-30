@@ -170,6 +170,18 @@ section {
   }
 
   //5. svg 글자 차례대로 써지는 애니메이션
+  &.svgAni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      max-width: 50rem;
+      width: 100%;
+      height: auto;
+      
+    }
+  }
 }
 
 /* animation 모음 */
