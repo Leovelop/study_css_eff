@@ -192,5 +192,10 @@ section.svgAni svg tspan > tspan {
     transform: translateX(0px);
   }
 }
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
