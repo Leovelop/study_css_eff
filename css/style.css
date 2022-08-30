@@ -167,6 +167,9 @@ section.svgAni svg {
   width: 100%;
   height: auto;
 }
+section.svgAni svg tspan > tspan {
+  stroke-dasharray: 1500;
+}
 
 /* animation 모음 */
 @keyframes up {
