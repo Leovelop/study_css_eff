@@ -198,6 +198,13 @@ section.svgAni svg tspan > tspan {
   stroke-dasharray: 1500;
   stroke-dashoffset: -1500;
 }
+section.fontAni:hover article {
+  z-index: 2;
+}
+section.fontAni:hover article h2 span {
+  opacity: 1;
+  transform: scale(1);
+}
 section.fontAni article {
   position: absolute;
   z-index: -1;
@@ -208,8 +215,8 @@ section.fontAni article h2 {
 }
 section.fontAni article h2 span {
   display: inline-block;
-  opacity: 0.3;
-  transform: scale(1.2);
+  opacity: 0;
+  transform: scale(3);
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.52, -0.66, 0.5, 1.65);
 }
