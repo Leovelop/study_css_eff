@@ -228,6 +228,12 @@ section {
           transform: scale(3);
           transition-duration: 0.5s;
 					transition-timing-function: cubic-bezier(0.52, -0.66, 0.5, 1.65);
+
+          @for $i from 1 through 5{
+            &:nth-of-type(#{$i}) {
+              transition-delay: #{$i * 0.1}s;
+            }
+          }
         }
       }
     }
