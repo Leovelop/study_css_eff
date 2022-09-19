@@ -210,11 +210,16 @@ section.fontAni article {
   z-index: -1;
 }
 section.fontAni article h2 {
-  font: normal italic 6vw/1 "Henny Penny";
+  font: normal italic 9vw/1 "Henny Penny";
   color: #333;
 }
+section.fontAni article h2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 section.fontAni article h2 span {
-  display: inline-block;
+  float: left;
   opacity: 0;
   transform: scale(3);
   transition-duration: 0.5s;

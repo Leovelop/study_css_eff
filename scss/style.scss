@@ -31,7 +31,7 @@ section {
 
   &:nth-of-type(even) {
     background: #eee;
-    
+
     h1 {
       color: #333;
     }
@@ -177,7 +177,7 @@ section {
     $num: 10;
 
     &:hover {
-      svg tspan > tspan {
+      svg tspan>tspan {
         @for $i from 1 through $num {
           &:nth-of-type(#{$i}) {
             animation: draw 0.5s #{$i * 0.2}s forwards;
@@ -190,12 +190,12 @@ section {
       max-width: 50rem;
       width: 100%;
       height: auto;
-      
-      tspan > tspan {
+
+      tspan>tspan {
         stroke-dasharray: 1500;
         stroke-dashoffset: -1500;
 
-        
+
       }
     }
   }
@@ -207,29 +207,35 @@ section {
       article {
         z-index: 2;
 
-      h2 span {
-        opacity: 1;
-        transform: scale(1)
-      }
+        h2 span {
+          opacity: 1;
+          transform: scale(1)
+        }
       }
     }
 
     article {
       position: absolute;
       z-index: -1;
-      
+
       h2 {
-        font: normal italic 6vw/1 'Henny Penny';
+        font: normal italic 9vw/1 'Henny Penny';
         color: #333;
 
+        &::after {
+          content: '';
+          display: block;
+          clear: both;
+        }
+
         span {
-          display: inline-block;
+          float: left;
           opacity: 0;
           transform: scale(3);
           transition-duration: 0.5s;
-					transition-timing-function: cubic-bezier(0.52, -0.66, 0.5, 1.65);
+          transition-timing-function: cubic-bezier(0.52, -0.66, 0.5, 1.65);
 
-          @for $i from 1 through 5{
+          @for $i from 1 through 5 {
             &:nth-of-type(#{$i}) {
               transition-delay: #{$i * 0.1}s;
             }
