@@ -201,6 +201,13 @@ section.fontAni article h2 {
   font: normal italic 6vw/1 "Henny Penny";
   color: #333;
 }
+section.fontAni article h2 span {
+  display: inline-block;
+  opacity: 0.3;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.52, -0.66, 0.5, 1.65);
+}
 
 /* animation 모음 */
 @keyframes up {
