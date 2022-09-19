@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import "./reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredericka+the+Great&family=Henny+Penny&display=swap');
+
 
 @mixin justify {
   display: flex;
@@ -199,7 +201,12 @@ section {
 
   //6. 글자 차례대로 나타나는 애니메이션
   &.fontAni {
-    
+    article {
+      h2 {
+        font: normal italic 6vw/1 'Henny Penny';
+        color: #333;
+      }
+    }
   }
 }
 

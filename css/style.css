@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredericka+the+Great&family=Henny+Penny&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -196,6 +197,11 @@ section.svgAni svg tspan > tspan {
   stroke-dasharray: 1500;
   stroke-dashoffset: -1500;
 }
+section.fontAni article h2 {
+  font: normal italic 6vw/1 "Henny Penny";
+  color: #333;
+}
+
 /* animation 모음 */
 @keyframes up {
   100% {
