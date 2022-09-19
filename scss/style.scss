@@ -12,6 +12,7 @@
 section {
   min-height: calc(100vh / 3);
   position: relative;
+  overflow: hidden;
 
   //행과 열 가운데 정렬
   &.center {
@@ -202,6 +203,10 @@ section {
   //6. 글자 차례대로 나타나는 애니메이션
   &.fontAni {
     article {
+      position: absolute;
+      //opacity: 1;
+      z-index: -1;
+      
       h2 {
         font: normal italic 6vw/1 'Henny Penny';
         color: #333;

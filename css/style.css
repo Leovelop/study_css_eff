@@ -42,6 +42,7 @@ button {
 section {
   min-height: 33.3333333333vh;
   position: relative;
+  overflow: hidden;
 }
 section.center {
   display: flex;
@@ -196,6 +197,10 @@ section.svgAni svg {
 section.svgAni svg tspan > tspan {
   stroke-dasharray: 1500;
   stroke-dashoffset: -1500;
+}
+section.fontAni article {
+  position: absolute;
+  z-index: -1;
 }
 section.fontAni article h2 {
   font: normal italic 6vw/1 "Henny Penny";
